@@ -10,6 +10,6 @@ def connect():
         "longitude": '-50,2332'
     })
 
-sio.connect('http://localhost:3030?query=1')
+sio.connect('http://192.168.0.8:3030?query=1')
 sio.wait()
 
